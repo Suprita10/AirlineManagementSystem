@@ -16,3 +16,24 @@ MySQL (Assumed for backend database)
 NetBeans IDE (Project structured for NetBeans)
 JDBC – For database connectivity
 Images/Icons – Custom images for UI enhancement
+
+📁 Project Structure
+AirlineManagementSystem/
+├── src/
+│   └── airlinemanagementsystem/
+│       ├── AddCustomer.java
+│       ├── BookFlight.java
+│       ├── JourneyDetails.java
+│       ├── Cancel.java
+│       ├── Conn.java
+│       ├── Login.java
+│       ├── ...
+├── build/
+├── manifest.mf
+├── build.xml
+
+🔮 Future Improvements
+Role-based user access (admin vs user)
+Integration with online APIs for real-time flight info
+Improved input validation and error handling
+Enhanced UI with JavaFX or modern libraries
